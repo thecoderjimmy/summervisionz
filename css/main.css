@@ -110,7 +110,7 @@ nav ul li {
 
 #profile .half-width{
     padding: 20px;
-    
+    margin: -20px;
 }
 
 /***** BOTTOM SECTION *****/
