@@ -12,7 +12,7 @@ a {
 }
 
 p {
-    font-size: 15px;
+    font-size: 20px;
 }
 
 h1 {
@@ -26,6 +26,15 @@ h2, h3, h4 {
     font-weight: 500;
 }
 
+h4 {
+    font-size: 22px;
+}
+
+h3 { 
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
 
 /***** GRID *****/
 
@@ -102,20 +111,104 @@ nav ul li {
     float: right;
 }
 
+#icons li {    
+    background: white;
+    padding-top: 7px;
+}
+
+ 
 .icon-link {
     color: orangered;
 }
 
-/***** MAIN *****/
 
-#profile .half-width{
-    padding: 20px;
-    margin: -20px;
+/***** PORTFOLIO *****/
+
+#portfolio {
+    float: left;
 }
 
-/***** BOTTOM SECTION *****/
+#portfolio img, #profile img {
+    margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#portfolio h4, #portfolio p {
+    padding-right: 90px;
+}
+
+#portfolio h4, #profile h4 {
+    margin-top: 0px;
+}
 
 
+/***** PROFILE *****/
+
+#profile {
+    float: left;
+    background: #A0B8D8;
+    padding-bottom: 30px;
+}
+
+#profile ul, #profile p {
+    padding-right: 90px;
+}
+
+#profile h3, h4 {
+    color: white;
+}
+
+#profile h4 {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#profile p, ul {
+    margin-top: 0px;
+}
+
+#profile ul {
+    font-size: 18px;
+}
+
+/***** CONNECT *****/
+
+#connect {
+    float: left;
+    background: #0556C3;
+    color: white;
+}
+
+#connect ul {
+    text-align: center;
+    padding-left: 0px;
+}
+
+#connect ul li {
+    display: inline-table;
+    font-size: 26px;
+    padding: 0px 20px;
+}
+
+#connect a {
+    color: white;
+}
 
 /***** FOOTER *****/
 
+footer {
+    clear: both;
+}
+
+footer h5, h6 {
+    text-align: right;
+    margin: 0px;
+    font-weight: bolder;
+}
+
+footer span {
+    color: orangered;
+    font-family: 'Prompt', sans-serif;
+}
