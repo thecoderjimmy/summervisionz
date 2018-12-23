@@ -1,0 +1,147 @@
+/***** BASE STYLES *****/
+
+@font-face{
+	font-family: 'Wisdom Script';
+	src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 20px 0 20px;
+}
+
+a {
+    color: rgb(119, 164, 102);
+    text-decoration: none;
+}
+
+span {
+    color: rgb(119, 164, 102);
+}
+
+p {
+    font-size: 15px;
+}
+
+h1, h2, h3, h4 {
+    text-transform: uppercase;
+}
+/***** GRID *****/
+
+.full-width {
+    width: auto;
+    clear: left;
+}
+
+.half-width {
+    width: 50%;
+    float: left;
+}
+
+.third-width {
+    width: 30%;
+    float: left;
+}
+
+
+/***** HEADER *****/
+
+header .half-width {
+    vertical-align: center;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 14px;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+
+
+/***** TOP SECTION *****/
+
+#top img {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border-style: solid;
+    border-color: rgb(119, 164, 102);
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+}
+
+#top h2 {
+    font-size: 17pt;
+    color: rgb(119, 164, 102);
+}
+
+#top p {
+    line-height: 25px;
+}
+
+
+/***** BOTTOM SECTION *****/
+
+#bottom .full-width {
+    margin-top: 40px;
+}
+
+#bottom .third-width {
+    border-style: solid;
+    border-color: #DEDBDC;
+    border-width: 1px;
+    height: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+#bottom #specials {
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+
+#bottom #reviews {
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 23px;
+}
+
+#bottom #contact {
+    padding-left: 20px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    line-height: 25px;
+}
+
+#specials {
+    border-left-style: none;
+}
+
+#bottom h3 {
+    font-size: 12px;
+}
+
+#bottom ul li {
+    list-style-type: none;
+    margin-left: -40px;
+    line-height: 35px;
+    font-size: 16px;
+}
+
+/***** FOOTER *****/
+
+footer h4 {
+    text-align: center;
+    font-size: 16px;
+}
+
+footer #fresh {
+    font-family: 'wisdom script', cursive;
+    text-transform: lowercase;
+    color: rgb(119, 164, 102);
+}

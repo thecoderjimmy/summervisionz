@@ -1,35 +1,37 @@
 /***** BASE STYLES *****/
 
-@font-face{
-	font-family: 'Wisdom Script';
-	src: url('../fonts/wisdom-script.otf') format('opentype');
-}
-
 body {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0 20px 0 20px;
+    font-family: 'Rajdhani', sans-serif;
+    max-width: 1200px;
+    margin: auto;
 }
 
 a {
-    color: rgb(119, 164, 102);
+    color: #0556C3;
     text-decoration: none;
-}
-
-span {
-    color: rgb(119, 164, 102);
 }
 
 p {
     font-size: 15px;
 }
 
-h1, h2, h3, h4 {
+h1 {
     text-transform: uppercase;
+    font-family: 'Prompt', sans-serif;
 }
+
+h2, h3, h4 {
+    text-transform: uppercase;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 500;
+}
+
+
 /***** GRID *****/
 
 .full-width {
-    width: auto;
+    width: 1200px;
+    margin: 0 auto;
     clear: left;
 }
 
@@ -46,102 +48,70 @@ h1, h2, h3, h4 {
 
 /***** HEADER *****/
 
-header .half-width {
-    vertical-align: center;
+header {
+    height: 675px;
+    width: 1200px;
+    background: url(../img/banner.jpeg);
+    background-size: cover;
 }
 
-h1 {
-    font-size: 30px;
+header h1 {
+    font-size: 105px;
+    text-align: center;
+    color: white;
+    letter-spacing: 4px;
+    padding-top: 200px;
+    padding-bottom: 0px;
+    margin: 0;
+    text-shadow: 6px 0px #0556C3;
+}
+
+header h2 {
+    color: #A0B8D8;
+    background: #0556C3;
+    text-align: right;
+    padding-right: 200px;
+    padding-top: 0px;
+    margin: 0;
+}
+
+nav {
+    float: right;
+    margin-right: 200px;
+    height: 30px;
+}
+
+nav ul {
+    margin-top: 7px;
+    margin-bottom: 0px;
 }
 
 nav ul li {
     display: inline-block;
-    font-size: 14px;
-    padding-left: 20px;
+    font-size: 24px;
     text-transform: uppercase;
+    margin-left: 3px;
+    padding: 0px 6px;
 }
 
-
-/***** TOP SECTION *****/
-
-#top img {
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
-    border-style: solid;
-    border-color: rgb(119, 164, 102);
-    border-top-width: 3px;
-    border-bottom-width: 3px;
+#site-nav li {
+    background: white;
 }
 
-#top h2 {
-    font-size: 17pt;
-    color: rgb(119, 164, 102);
+#icons {
+    float: right;
 }
 
-#top p {
-    line-height: 25px;
+.icon-link {
+    color: orangered;
 }
+
+/***** MAIN *****/
 
 
 /***** BOTTOM SECTION *****/
 
-#bottom .full-width {
-    margin-top: 40px;
-}
 
-#bottom .third-width {
-    border-style: solid;
-    border-color: #DEDBDC;
-    border-width: 1px;
-    height: 200px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-bottom: 40px;
-}
-
-#bottom #specials {
-    border-left-width: 0px;
-    border-right-width: 0px;
-}
-
-#bottom #reviews {
-    padding-left: 20px;
-    padding-right: 20px;
-    line-height: 23px;
-}
-
-#bottom #contact {
-    padding-left: 20px;
-    border-left-width: 0px;
-    border-right-width: 0px;
-    line-height: 25px;
-}
-
-#specials {
-    border-left-style: none;
-}
-
-#bottom h3 {
-    font-size: 12px;
-}
-
-#bottom ul li {
-    list-style-type: none;
-    margin-left: -40px;
-    line-height: 35px;
-    font-size: 16px;
-}
 
 /***** FOOTER *****/
 
-footer h4 {
-    text-align: center;
-    font-size: 16px;
-}
-
-footer #fresh {
-    font-family: 'wisdom script', cursive;
-    text-transform: lowercase;
-    color: rgb(119, 164, 102);
-}
