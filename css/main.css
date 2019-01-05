@@ -143,6 +143,13 @@ nav ul li {
     margin-top: 0px;
 }
 
+#project {
+    border-bottom: 1px solid #A0B8D8;
+    height: auto;
+    overflow: auto;  /* This is used to make the parent div height equal to child elements! */
+    margin-bottom: 30px;
+}
+
 
 /***** PROFILE *****/
 
@@ -206,6 +213,7 @@ footer h5, h6 {
     text-align: right;
     margin: 0px;
     font-weight: bolder;
+    font-size: 13px;
 }
 
 footer span {
