@@ -12,7 +12,11 @@ a {
 }
 
 p {
-    font-size: 20px;
+    font-size: 22px;
+}
+
+b {
+    font-weight: 800;
 }
 
 h1 {
@@ -27,7 +31,7 @@ h2, h3, h4 {
 }
 
 h4 {
-    font-size: 22px;
+    font-size: 24px;
 }
 
 h3 { 
@@ -82,6 +86,7 @@ header h2 {
     padding-right: 200px;
     padding-top: 0px;
     margin: 0;
+    font-size: 30px;
 }
 
 nav {
@@ -97,7 +102,7 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    font-size: 24px;
+    font-size: 28px;
     text-transform: uppercase;
     margin-left: 3px;
     padding: 0px 6px;
@@ -159,8 +164,16 @@ nav ul li {
     padding-bottom: 30px;
 }
 
+div #profile-pic-div {
+    margin-top: 120px;
+}
+
 #profile ul, #profile p {
     padding-right: 90px;
+}
+
+.about {
+    padding-left: 1em;
 }
 
 #profile h3, h4 {
@@ -177,7 +190,7 @@ nav ul li {
 }
 
 #profile ul {
-    font-size: 18px;
+    font-size: 22px;
 }
 
 /***** CONNECT *****/
@@ -213,7 +226,7 @@ footer h5, h6 {
     text-align: right;
     margin: 0px;
     font-weight: bolder;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 footer span {
